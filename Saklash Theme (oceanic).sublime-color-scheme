@@ -1,0 +1,370 @@
+{
+  "name": "Saklash Theme (oceanic)",
+  "author": "",
+  "globals": {
+    "background": "#1B2B34",
+    "foreground": "#CDD3DE",
+    "caret": "#CDD3DE",
+    "block_caret": "#CDD3DE",
+    "line_highlight": "#65737e55",
+    "misspelling": "",
+    "fold_marker": "",
+    "accent": "",
+    "gutter": "",
+    "gutter_foreground": "",
+    "line_diff_added": "#85ea97",
+    "line_diff_modified": "#ecc994",
+    "line_diff_deleted": "#ff3e6bf3",
+    "selection": "#4f5b66",
+    "inactive_selection": "#343d46",
+    "inactive_selection_foreground": "#e0e0e0",
+    "highlight": "",
+    "find_highlight": "",
+    "find_highlight_foreground": "",
+    "guide": "",
+    "active_guide": "",
+    "stack_guide": "",
+    "brackets_foreground": "",
+    "tags_foreground": "",
+    "shadow": ""
+  },
+  "variables": {
+    "black": "#1b2b34",
+    "white": "#ffffff",
+    "red": "#ec5f67",
+    "green": "#99c794",
+    "yellow": "#fac863",
+    "orange": "#fac863",
+    "blue": "#6699cc",
+    "magenta": "#c594c5",
+    "cyan": "#5fb3b3"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "foreground": "#676f7d",
+      "font_style": 0,
+      "scope": "comment, string.comment"
+    },
+    {
+      "name": "String",
+      "foreground": "#c9a022",
+      "font_style": 0,
+      "scope": "string, string.template"
+    },
+    {
+      "name": "Number",
+      "foreground": "#c678dd",
+      "font_style": 0,
+      "scope": "constant.numeric"
+    },
+    {
+      "name": "Embedded String Begin/End",
+      "foreground": "#c678dd",
+      "font_style": 0,
+      "scope": "string.embedded.begin, string.embedded.end, punctuation.definition.template-expression, punctuation.section.embedded"
+    },
+    {
+      "name": "Default Embedded Color",
+      "foreground": "#abb2bf",
+      "font_style": 0,
+      "scope": "punctuation.section.embedded.begin.js, punctuation.section.embedded.end.js, punctuation.section.embedded.begin.erb, punctuation.section.embedded.end.erb, source.elixir.embedded, punctuation.separator, punctuation.accessor, meta.brace"
+    },
+    {
+      "name": "Built-in constant",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "constant.language"
+    },
+    {
+      "name": "User-defined constant",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "constant.character, constant.other"
+    },
+    {
+      "name": "Language Variable",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "variable.language"
+    },
+    {
+      "name": "Keyword",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "keyword, keyword.operator.logical, keyword.operator.constructor"
+    },
+    {
+      "name": "Keyword Operator",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "keyword.operator"
+    },
+    {
+      "name": "Storage",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "storage"
+    },
+    {
+      "name": "Types",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "storage.type"
+    },
+    {
+      "name": "Class",
+      "foreground": "#61afef",
+      "font_style": 0,
+      "scope": "entity.name.class, entity.name.module, entity.name.type, storage.identifier, support.class"
+    },
+    {
+      "name": "Variable Object",
+      "foreground": "#ae85ce",
+      "font_style": 0,
+      "scope": "variable.other.object, variable.other.constant, variable.other.global, variable.other.readwrite.class, variable.other.readwrite.instance, variable.other.readwrite.batchfile, variable.readwrite, variable.readwrite.other.block"
+    },
+    {
+      "name": "Other variable",
+      "foreground": "#abb2bf",
+      "font_style": 0,
+      "scope": "variable.other, variable.other.property, variable.other.block"
+    },
+    {
+      "name": "Inherited Class",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "entity.other.inherited-class"
+    },
+    {
+      "name": "Package Import",
+      "foreground": "#61afef",
+      "font_style": 0,
+      "scope": "storage.modifier.import, storage.modifier.package"
+    },
+    {
+      "name": "Function name",
+      "foreground": "#738dfd",
+      "font_style": 0,
+      "scope": "entity.name.function, support.function"
+    },
+    {
+      "name": "Function argument",
+      "foreground": "#d19a66",
+      "font_style": "italic",
+      "scope": "variable.parameter, entity.name.variable.parameter, parameter.variable"
+    },
+    {
+      "name": "Function call",
+      "foreground": "#abb2bf",
+      "font_style": 0,
+      "scope": "entity.name.function-call"
+    },
+    {
+      "name": "Builtin Functions",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "function.support.builtin, function.support.core"
+    },
+    {
+      "name": "Tag Name",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "entity.name.tag, entity.name.tag.class.js"
+    },
+    {
+      "name": "Tag Class and ID",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "entity.name.tag.class, entity.name.tag.id"
+    },
+    {
+      "name": "Tag Attribute",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "entity.other.attribute-name"
+    },
+    {
+      "name": "Library constant",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "support.constant"
+    },
+    {
+      "name": "Library class/type",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "support.type, support.variable"
+    },
+    {
+      "name": "Json Property",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "support.dictionary.json"
+    },
+    {
+      "name": "StyleSheet Property name",
+      "foreground": "#abb2bf",
+      "font_style": 0,
+      "scope": "support.type.property-name.css, support.type.property-name.scss, support.type.property-name.less, support.type.property-name.sass"
+    },
+    {
+      "name": "CSS: Pseudo Attribute Names",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-class.scss, entity.other.attribute-name.pseudo-class.less, entity.other.attribute-name.pseudo-class.sass, entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-element.scss, entity.other.attribute-name.pseudo-element.less, entity.other.attribute-name.pseudo-element.sass"
+    },
+    {
+      "name": "StyleSheet Property value",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "support.constant.css, support.constant.scss, support.constant.less, support.constant.sass"
+    },
+    {
+      "name": "StyleSheet Variable",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "variable.css, variable.scss, variable.less, variable.sass"
+    },
+    {
+      "name": "StyleSheet Variable String",
+      "foreground": "#c9a022",
+      "font_style": 0,
+      "scope": "variable.css.string, variable.scss.string, variable.less.string, variable.sass.string"
+    },
+    {
+      "name": "StyleSheet Unit",
+      "foreground": "#c678dd",
+      "font_style": 0,
+      "scope": "unit.css, unit.scss, unit.less, unit.sass"
+    },
+    {
+      "name": "StyleSheet Function",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "function.css, function.scss, function.less, function.sass"
+    },
+    {
+      "name": "Library variable",
+      "font_style": "",
+      "scope": "support.other.variable"
+    },
+    {
+      "name": "Invalid",
+      "foreground": "#F8F8F0",
+      "background": "#c678dd",
+      "font_style": 0,
+      "scope": "invalid"
+    },
+    {
+      "name": "Invalid deprecated",
+      "foreground": "#F8F8F0",
+      "background": "#24b5a8",
+      "font_style": 0,
+      "scope": "invalid.deprecated"
+    },
+    {
+      "name": "JSON String",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "support.type.property-name.json"
+    },
+    {
+      "name": "Link",
+      "foreground": "#61afef",
+      "font_style": 0,
+      "scope": "string.detected-link"
+    },
+    {
+      "name": "diff.header",
+      "foreground": "#75715E",
+      "font_style": 0,
+      "scope": "meta.diff, meta.diff.header"
+    },
+    {
+      "name": "diff.deleted",
+      "foreground": "#e06c75",
+      "font_style": 0,
+      "scope": "markup.deleted"
+    },
+    {
+      "name": "diff.inserted",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "markup.inserted"
+    },
+    {
+      "name": "diff.changed",
+      "foreground": "#c9a022",
+      "font_style": 0,
+      "scope": "markup.changed"
+    },
+    {
+      "foreground": "#24b5a8A0",
+      "font_style": 0,
+      "scope": "constant.numeric.line-number.find-in-files - match"
+    },
+    {
+      "foreground": "#c9a022",
+      "font_style": 0,
+      "scope": "entity.name.filename.find-in-files"
+    },
+    {
+      "name": "Markup: Emphasis",
+      "font_style": "italic",
+      "scope": "markup.italic, markup.italic.markdown"
+    },
+    {
+      "name": "Markup: Punctuation",
+      "foreground": "#676f7d",
+      "font_style": 0,
+      "scope": "punctuation.definition.italic.markdown, punctuation.definition.bold.markdown, punctuation.definition.heading.markdown"
+    },
+    {
+      "name": "Markup: Emphasis Punctuation",
+      "font_style": "italic",
+      "scope": "punctuation.definition.italic.markdown"
+    },
+    {
+      "name": "Markdown: Link",
+      "foreground": "#61afef",
+      "font_style": 0,
+      "scope": "markup.underline.link.markdown"
+    },
+    {
+      "name": "Markup: Bold",
+      "font_style": "bold",
+      "scope": "markup.bold.markdown"
+    },
+    {
+      "name": "Markup: Heading",
+      "foreground": "#e06c75",
+      "font_style": "bold",
+      "scope": "markup.heading.markdown"
+    },
+    {
+      "name": "Markup: Quote",
+      "foreground": "#37ae6f",
+      "font_style": 0,
+      "scope": "markup.quote.markdown"
+    },
+    {
+      "name": "Markup: Separator",
+      "foreground": "#c678dd",
+      "font_style": "bold",
+      "scope": "meta.separator.markdown"
+    },
+    {
+      "name": "Markup: Raw",
+      "foreground": "#24b5a8",
+      "font_style": 0,
+      "scope": "markup.raw.inline.markdown, markup.raw.block.markdown"
+    },
+    {
+      "name": "Markup: List Punctuation",
+      "foreground": "#ffffff",
+      "font_style": "bold",
+      "scope": "punctuation.definition.list_item.markdown"
+    }
+  ]
+}
