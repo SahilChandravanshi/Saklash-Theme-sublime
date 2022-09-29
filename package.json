@@ -1,0 +1,15 @@
+{
+  "name": "saklash-theme",
+  "version": "1.0.0",
+  "description": "A Sublime Text theme which you will ever need",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SahilChandravanshi/Saklash-Theme-sublime.git"
+  },
+  "author": "Sahil Chandravanshi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SahilChandravanshi/Saklash-Theme-sublime/issues"
+  },
+  "homepage": "https://github.com/SahilChandravanshi/Saklash-Theme-sublime#readme"
+}
