@@ -1,5 +1,7 @@
 <h1 align="center">Saklash Theme</h1>
 
+<br>
+
 A friendly vscode theme which you will ever need! Give it a try!
 
 - [x] Three Themes - (Soothing, GunMetal, Plain, Oceanic)
